@@ -160,10 +160,6 @@ nav ul li a:hover {
 	justify-content: center;
 	flex-direction: column;
 }
-.form textarea{
-	height = 100px; 
-	max-width = 100%;
-}
 .form_buttons {
 	margin: 10px 0 0 50%;
 	width: 50%;

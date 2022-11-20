@@ -5,8 +5,8 @@
 		<meta charset="utf-8">
 		<title>Мой сайт</title>
 		<link rel="stylesheet" type="text/css" href="style.css">
-		<style type="text/css">
-			label[for="answer"] {
+		<style>
+			label[for*="answer"] {
 				font-weight: 100;
 			}
 		</style>
@@ -37,8 +37,8 @@
 			</ul></nav>
 			<div class="content">
 				<section id="inner_header"><h3>Тест по дискретной математике</h3></section>
-				<img class="background" src="img/exam.jpg" height="849px" alt="">
-				<form class="form" method="POST" action="mailto: gleb13x@mail.ru">
+				<img class="background" src="img/exam.jpg" height="849" alt="">
+				<form class="form" method="POST" action="mailto:gleb13x@mail.ru">
 					<br>Ваше ФИО:<br>
 					<input type="text">
 					<br>Ваша группа:<br>
@@ -68,14 +68,14 @@
 
 					<br>Множество – это...<br>
 					<fieldset id="answer" style="border: none;">
-						<input type="radio" value="набор каких-либо элементов" name="answer">
-						<label for="answer">набор каких-либо элементов</label><br>
-						<input type="radio" value="перечень одинаковых элементов" name="answer">
-						<label for="answer">перечень одинаковых элементов</label><br>
-						<input type="radio" value="совокупность элементов, обладающих некоторым признаком, свойством" name="answer">
-						<label for="answer">совокупность элементов, обладающих некоторым признаком, свойством</label><br>
-						<input type="radio" value="совокупность чисел" name="answer">
-						<label for="answer">совокупность чисел</label><br>
+						<input type="radio" value="набор каких-либо элементов" name="answer" id="answer1">
+						<label for="answer1">набор каких-либо элементов</label><br>
+						<input type="radio" value="перечень одинаковых элементов" name="answer" id="answer2">
+						<label for="answer2">перечень одинаковых элементов</label><br>
+						<input type="radio" value="совокупность элементов, обладающих некоторым признаком, свойством" name="answer" id="answer3">
+						<label for="answer3">совокупность элементов, обладающих некоторым признаком, свойством</label><br>
+						<input type="radio" value="совокупность чисел" name="answer" id="answer4">
+						<label for="answer4">совокупность чисел</label><br>
 					</fieldset>
 
 					<br>Что из этого относится к дискретной математике?<br>
@@ -87,8 +87,7 @@
 						<option>Фотосинтез</option>
 					</select>
 
-					<br>Что это за операция?<br>
-					&#8743<br>
+					<br>Что это за операция?<br>&and;<br>
 					<textarea></textarea>
 
 					<div class="form_buttons">
