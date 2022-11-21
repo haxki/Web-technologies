@@ -33,17 +33,17 @@
 				<img class="background" src="img/contact.jpg" height="849" alt="">
 				<form class="form" method="POST" action="mailto:gleb13x@mail.ru">
 					<h3 style="text-align: center;">Отправьте мне сообщение если хотите</h3>
-					<br>Ваше ФИО:<br>
-					<input type="text">
-					<br>Ваш пол:<br>
-					<fieldset id="human-type" style="border: none;">
-						<input type="radio" value="Мужчина" name="human-type" id="human-type1">
-						<label for="human-type1">Мужчина</label>
-						<input type="radio" value="Женщина" name="human-type" id="human-type2">
-						<label for="human-type2">Женщина</label>
+					<label for="answer1"><b><br>Ваше ФИО:<br></b></label>
+					<input id="answer1" name="answer1" type="text" placeholder="Введите ваше ФИО...">
+					<label for="answer2"><b><br>Ваш пол:<br></b></label>
+					<fieldset id="answer2" name="answer2" style="border: none;">
+						<input type="radio" value="Мужчина" name="answer2" id="answer21">
+						<label for="answer21">Мужчина</label>
+						<input type="radio" value="Женщина" name="answer2" id="answer22">
+						<label for="answer22">Женщина</label>
 					</fieldset>
-					<br>Ваш возраст:<br>
-					<select>
+					<label for="answer3"><br><b>Ваш возраст:</b><br></label>
+					<select id="answer3" name="answer3">
 						<option>До 14</option>
 						<option>От 15 до 24</option>
 						<option>От 25 до 34</option>
@@ -51,10 +51,10 @@
 						<option>От 45 до 54</option>
 						<option>От 55</option>
 					</select>
-					<br>Ваш e-mail:<br>
-					<input type="email">
-					<br>Сообщение:<br>
-					<textarea></textarea>
+					<label for="answer4"><b><br>Ваш e-mail:<br></b></label>
+					<input id="answer4" name="answer4" type="email" placeholder="Введите ваш e-mail...">
+					<label for="answer5"><b><br>Сообщение:<br></b></label>
+					<textarea id="answer5" name="answer5" placeholder="Введите ваше сообщение..."></textarea>
 					<div class="form_buttons">
 						<input type="submit">
 						<input type="reset" value="Очистить форму">

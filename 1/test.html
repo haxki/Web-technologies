@@ -39,10 +39,10 @@
 				<section id="inner_header"><h3>Тест по дискретной математике</h3></section>
 				<img class="background" src="img/exam.jpg" height="849" alt="">
 				<form class="form" method="POST" action="mailto:gleb13x@mail.ru">
-					<br>Ваше ФИО:<br>
-					<input type="text">
-					<br>Ваша группа:<br>
-					<select>
+					<label for="answer01"><b><br>Ваше ФИО:</b></label>
+					<input id="answer01" name="answer01" type="text" placeholder="Введите ваше ФИО...">
+					<label for="answer02"><b><br>Ваша группа:</b></label>
+					<select id="answer02" name="answer02">
 						<optgroup label="1 курс">
 							<option value="ИС/б-22-1-о">ИС/б-22-1-о</option>
 							<option value="ИС/б-22-2-о">ИС/б-22-2-о</option>
@@ -66,20 +66,20 @@
 						</optgroup>
 					</select>
 
-					<br>Множество – это...<br>
-					<fieldset id="answer" style="border: none;">
-						<input type="radio" value="набор каких-либо элементов" name="answer" id="answer1">
-						<label for="answer1">набор каких-либо элементов</label><br>
-						<input type="radio" value="перечень одинаковых элементов" name="answer" id="answer2">
-						<label for="answer2">перечень одинаковых элементов</label><br>
-						<input type="radio" value="совокупность элементов, обладающих некоторым признаком, свойством" name="answer" id="answer3">
-						<label for="answer3">совокупность элементов, обладающих некоторым признаком, свойством</label><br>
-						<input type="radio" value="совокупность чисел" name="answer" id="answer4">
-						<label for="answer4">совокупность чисел</label><br>
+					<label for="answer1"><b><br>Множество – это...</b></label>
+					<fieldset id="answer1" style="border: none;">
+						<input type="radio" value="набор каких-либо элементов" name="answer1" id="answer11">
+						<label for="answer11">набор каких-либо элементов</label><br>
+						<input type="radio" value="перечень одинаковых элементов" name="answer1" id="answer12">
+						<label for="answer12">перечень одинаковых элементов</label><br>
+						<input type="radio" value="совокупность элементов, обладающих некоторым признаком, свойством" name="answer1" id="answer13">
+						<label for="answer13">совокупность элементов, обладающих некоторым признаком, свойством</label><br>
+						<input type="radio" value="совокупность чисел" name="answer1" id="answer14">
+						<label for="answer14">совокупность чисел</label><br>
 					</fieldset>
 
-					<br>Что из этого относится к дискретной математике?<br>
-					<select>
+					<label for="answer2"><b><br>Что из этого относится к дискретной математике?</b></label>
+					<select id="answer2" name="answer2">
 						<option>Дефрагментация</option>
 						<option>Интеграл</option>
 						<option>Оксюморон</option>
@@ -87,8 +87,8 @@
 						<option>Фотосинтез</option>
 					</select>
 
-					<br>Что это за операция?<br>&and;<br>
-					<textarea></textarea>
+					<label for="answer3"><b><br>Что это за операция?<br>&and;<br></b></label>
+					<textarea id="answer3" name="answer3" placeholder="Введите ваш ответ..."></textarea>
 
 					<div class="form_buttons">
 						<input type="submit">
